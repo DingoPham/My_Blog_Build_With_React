@@ -1,10 +1,17 @@
-import './App.css';
+import Navbar from './components/Navbar.js';
+import EveryDes from './components/EveryDes.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
+        <Navbar />
       </header>
+      <section>
+        <EveryDes />
+      </section>
+      <footer>
+      </footer>
     </div>
   );
 }
