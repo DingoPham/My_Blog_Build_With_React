@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar.js';
 import EveryDes from './components/EveryDes.js';
+import Foot from './components/Foot.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <EveryDes />
       </section>
       <footer>
+        <Foot />
       </footer>
     </div>
   );

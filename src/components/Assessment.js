@@ -1,5 +1,4 @@
 import '../assets/for-index/Body.css'
-import '../assets/StyleMain.css';
 
 const Assessment = () =>{
     return(

@@ -1,4 +1,3 @@
-import '../assets/StyleMain.css';
 import '../assets/for-index/Body.css'
 
 const BgPicture = () => {

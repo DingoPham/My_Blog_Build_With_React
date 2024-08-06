@@ -11,10 +11,10 @@ a{
     color: #fff;
     text-decoration: none;
 }
-.gap a{
+.p-1 .tx-c .gap a{
     position: relative;
 }
-.gap a::before{
+.p-1 .tx-c .gap a::before{
     content: "";
     transition: width 0.3s ease;
     background-color: #fff;
@@ -23,6 +23,6 @@ a{
     position: absolute;
     bottom: 0;
 }
-.gap a:hover::before{
+.p-1 .tx-c .gap a:hover::before{
     width: 100%;
 }
