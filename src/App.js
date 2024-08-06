@@ -1,6 +1,6 @@
-import Navbar from './components/Navbar.js';
-import EveryDes from './components/EveryDes.js';
-import Foot from './components/Foot.js';
+import Navbar from './components/Navbar.jsx';
+import EveryDes from './components/EveryDes.jsx';
+import Foot from './components/Foot.jsx';
 
 function App() {
   return (

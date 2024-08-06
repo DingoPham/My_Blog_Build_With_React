@@ -1,13 +1,15 @@
 import '../assets/for-index/Body.css';
-import Assessment from './Assessment';
-import BgPicture from './BgPicture.js';
+import Assessment from './Assessment.jsx';
+import BgPicture from './BgPicture.jsx';
+
+import React, {useEffect, useRef} from 'react';
 
 const EveryDes = () => {
     return(
         <main>
             <BgPicture />
             <div className='flex flex-column p-6 m-3'>
-                <section id='aboutMe' className='flex flex-reverse m-b'>
+                <section id='aboutMe' className='flex flex-reverse m-b a-c'>
                     <p className='f-30 m-2 tx-center'>
                     My name is Dingo, I'm so glad you came here and discovered the wonders of my website.
                     My hobbies are programming, 2D painting. 
@@ -16,14 +18,14 @@ const EveryDes = () => {
                     </p>
                     <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718737294/catYes_vafisx.gif' />
                 </section>
-                <section id='thisWebsite' className='flex m-b'>
+                <section id='thisWebsite' className='flex m-b a-c'>
                     <p className='f-30 m-1 tx-center'>
                     This website is basically just a static website, 
                     not a commercial website or any other kind of e-commerce website.
                     </p>
                     <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735928/catNo_hdsqiy.gif' />
                 </section>
-                <section id='desire' className='flex flex-reverse m-b'>
+                <section id='desire' className='flex flex-reverse m-b a-c'>
                     <p className='f-30 m-2 tx-center'>
                         In the future, I will have more projects for myself or maybe with a group. 
                         But no matter what, 
@@ -31,11 +33,11 @@ const EveryDes = () => {
                     </p>
                     <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735919/catYawn_tbpywt.gif' />
                 </section>
-                <section id='mySkills' className='flex m-b'>
+                <section id='mySkills' className='flex m-b a-c'>
                     <Assessment />
                     <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735953/catLearn_cyklvf.gif' />
                 </section>
-                <section id='otherThings' className='flex flex-column m-b items-center gap'>
+                <section id='otherThings' className='flex flex-column m-b items-center gap a-c'>
                     <p className='f-30 tx-center'>
                         - If you are interested, please join me via social networks below -
                     </p>

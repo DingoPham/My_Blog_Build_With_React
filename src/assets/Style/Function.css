@@ -1,0 +1,44 @@
+.scroll-to-top{ 
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    z-index: 100;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    width: 40px;
+    height: 35px;
+    background-color: #00000060;
+}
+.scroll-to-top.show{
+    display: block;
+    animation: fadeIn 0.3s;
+}
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.a-c{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.a-c.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+.foot-a-c{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.foot-a-c.show {
+    opacity: 1;
+    transform: translateX(0);
+}

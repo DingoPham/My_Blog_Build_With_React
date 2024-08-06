@@ -1,13 +1,15 @@
-import '../assets/for-index/Footer.css';
+import '../assets/Style/Footer.css';
+import ToTopFunc from './other-function/ToTopFunction';
 
 const Foot = () =>{
     return(
-        <div className="flex foot tx-c flex-column">
+        <main className="flex foot tx-c flex-column foot-a-c">
             <div className='p-2'>
                 <p>If you have any questions, write to me via my gmail:</p>
                 <p className="f-30 ">pencibambo@gmail.com</p>
             </div>
-        </div>
+            <ToTopFunc />
+        </main>
     )
 }
 
