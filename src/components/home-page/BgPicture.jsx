@@ -1,4 +1,4 @@
-import '../assets/for-index/Body.css'
+import '../../assets/Style/Body.css'
 
 const BgPicture = () => {
     return(

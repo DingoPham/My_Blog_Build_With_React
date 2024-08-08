@@ -5,7 +5,7 @@ const ToTopFunc = () => {
     const [isVisible, setIsVisible] = useState(false);
 
     const toggleVisibility = () =>{
-        if(window.pageYOffset > 1000 ){
+        if(window.pageYOffset > 500 ){
             setIsVisible(true);
         }
         else{

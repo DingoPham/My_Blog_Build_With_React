@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import './AnimatedContent.css';
+import '../../assets/Style/Function.css';
 
 const AnimatedContent = ({ children }) => {
     const contentRef = useRef(null);
@@ -26,7 +26,7 @@ const AnimatedContent = ({ children }) => {
     }, []);
 
     return (
-        <div ref={contentRef} className="animated-content">
+        <div ref={contentRef} className="a-c">
             {children}
         </div>
     );

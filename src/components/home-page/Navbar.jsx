@@ -1,5 +1,5 @@
-import '../assets/for-index/Header.css';
-import '../assets/Style/StyleMain.css';
+import '../../assets/Style/Header.css';
+import '../../assets/Style/StyleMain.css';
 
 import React, {useEffect} from "react"
 
@@ -44,7 +44,7 @@ const Navbar = () => {
     return (
         <div className="navbar p-1" id='navBar'>
             <div className='flex space-around navbar-container tx-c'>
-                <a href='index.html'>DINGOPHAM</a>
+                <a href='index.html' className='f-w'>DINGOPHAM</a>
                 <div className='flex gap'>
                     <a href="#aboutMe">ABOUT ME</a>
                     <a href="#thisWebsite">THIS WEBSITE</a>

@@ -41,6 +41,9 @@
 .flex{
     display: flex;
 }
+.f-w{
+    font-weight: 800;
+}
 .space-around{
     justify-content: space-around;
 }
