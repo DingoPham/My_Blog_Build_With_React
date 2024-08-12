@@ -10,7 +10,7 @@ const Navbar = () => {
 
             const href = e.target.getAttribute('href');
 
-            if (href === 'index.html') {
+            if (href === '/') {
                 window.location.href = href;
                 return;
             }
@@ -44,7 +44,7 @@ const Navbar = () => {
     return (
         <div className="navbar p-1" id='navBar'>
             <div className='flex space-around navbar-container tx-c'>
-                <a href='index.html' className='f-w'>DINGOPHAM</a>
+                <a href='/'>DINGOPHAM</a>
                 <div className='flex gap'>
                     <a href="#aboutMe">ABOUT ME</a>
                     <a href="#thisWebsite">THIS WEBSITE</a>

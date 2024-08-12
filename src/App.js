@@ -1,25 +1,17 @@
-import Navbar from './components/home-page/Navbar';
-import EveryDes from './components/home-page/EveryDes';
-import Foot from './components/home-page/Foot';
-import ToTopFun from './components/other-function/ToTopFunction';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './components/Home';
+import Artwork from './components/Artwork'
 
 function App() {
   return (
     <Router>
       <div>
-        <header>
-          <Navbar />
-        </header>
-        <section>
-          <EveryDes />
-        </section>
-        <footer>
-          <Foot />
-          <ToTopFun />
-        </footer>
-        
+        <Routes>
+          <Route exact path='/' element={<Home/>} />
+          <Route exact path='/artwork' element={<Artwork/>} />
+        </Routes>
       </div>
     </Router>
   );

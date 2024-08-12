@@ -18,7 +18,7 @@ a{
     content: "";
     transition: width 0.3s ease;
     background-color: #fff;
-    height: 3px;
+    height: 2px;
     width: 0;
     position: absolute;
     bottom: 0;

@@ -3,12 +3,14 @@ import Assessment from './Assessment';
 import BgPicture from './BgPicture';
 import AnimatedContent from '../other-function/AnimatedContent';
 
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 const EveryDes = () => {
     return(
         <main>
             <BgPicture />
             <div className='flex flex-column p-6 m-3'>
-                
                     <section id='aboutMe' className='m-b'>
                         <AnimatedContent>
                             <div className='flex flex-reverse'>
@@ -76,11 +78,11 @@ const EveryDes = () => {
                                 <p className='f-30 tx-center'>
                                     - My artwork site -
                                 </p>
-                                <a href='artwork.html'>
+                                <Link to='/artwork'>
                                     <button className='bg-btn-color btn-color f-17'>
                                         Artwork Site
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </AnimatedContent>
                     </section>
