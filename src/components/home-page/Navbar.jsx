@@ -42,8 +42,8 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <div className="navbar p-1" id='navBar'>
-            <div className='flex space-around navbar-container tx-c'>
+        <div className="navbar p-1 w-p-100" id='navBar'>
+            <div className='flex space-around navbar-container tx-c f-30'>
                 <a href='/'>DINGOPHAM</a>
                 <div className='flex gap'>
                     <a href="#aboutMe">ABOUT ME</a>

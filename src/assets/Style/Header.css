@@ -4,8 +4,6 @@
     left: 0;
     z-index: 1000;
     background-color: #363636;
-    font-size: 30px;
-    width: 100%;
 }
 a{
     color: #fff;
@@ -25,4 +23,64 @@ a{
 }
 .p-1 .tx-c .gap a:hover::before{
     width: 100%;
+}
+.custom-bg-1{
+    background-color: #363636;
+}
+.custom-bg-2{
+    background-color: #3a3a3a;
+}
+.point-to.open{
+    left: 0;
+}
+.navbar-open .transtion-margin-left{
+    margin-left: 250px;
+}
+.navbar-size{
+    width: 250px;
+    height: 100vh;
+}
+.toggle-btn {
+    position: absolute;
+    top: 15px;
+    z-index: 1001;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.open-button{
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0;    
+}
+.point-to{
+    left: -250px;
+    top: 0;
+}
+.transtion-margin-left{
+    transition: margin-left 0.3s;
+}
+.transtion-left{
+    transition: left 0.3s;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+.change .bar1{
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: translate(0, -11px) rotate(45deg);
 }

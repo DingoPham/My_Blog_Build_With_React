@@ -5,7 +5,7 @@ import ToTopFunc from "./other-function/ToTopFunction"
 
 const Home = () => {
     return(
-        <div>
+        <main>
             <header>
                 <Navbar />
             </header>
@@ -16,7 +16,7 @@ const Home = () => {
                 <Foot />
                 <ToTopFunc />
             </footer>
-        </div>
+        </main>
     )
 }
 

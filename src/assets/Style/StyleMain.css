@@ -31,9 +31,15 @@
 .tx-c{
     color: #ffffff;
 }
+.tx-g{
+    color: #818181;
+}
 .f-30{
     font-size: 30px;
     font-weight: 500;
+}
+.f-25{
+    font-size: 20px;
 }
 .f-17{
     font-size: 17px;
@@ -43,6 +49,9 @@
 }
 .f-w{
     font-weight: 800;
+}
+.f-w-100{
+    font-weight: 100;
 }
 .space-around{
     justify-content: space-around;
@@ -59,12 +68,30 @@
 .space-between{
     justify-content: space-between;
 }
+.justify-center{
+    justify-content: center;
+}
 .items-center{
     align-items: center;
 }
 .gap{
     gap: 20px;
 }
+.flex-1{
+    flex: 1;
+}
 .tx-center{
     text-align: center;
+}
+.w-p-100{
+    width: 100%;
+}
+.h-60{
+    height: 60px;
+}
+.tx-g:hover{
+    color: #ffffff;
+}
+.transition-a{
+    transition: 0.2s;
 }

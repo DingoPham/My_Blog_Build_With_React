@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+import Navbar from "./artwork-page/Navbar";
+
 
 const Artwork = () => {
     return(
-        <div>dadadawdawd
-            <Link to='/'>
-                <button>DINGOPHAM</button>
-            </Link>
-        </div>
-        
+        <main>
+            <div>
+                <Navbar />
+            </div>
+        </main>
     )
 }
 
