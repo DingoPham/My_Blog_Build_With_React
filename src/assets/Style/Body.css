@@ -49,3 +49,27 @@ button:active{
 .bg-btn-color a{
     position: none;
 }
+.pic-value{
+    height: 400px;
+    width: 400px;
+}
+.m-5 button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+.pagination-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+.pagination-controls input {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 10px;
+  }

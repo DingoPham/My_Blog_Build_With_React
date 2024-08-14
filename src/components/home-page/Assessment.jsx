@@ -2,7 +2,7 @@ import '../../assets/Style/Body.css'
 
 const Assessment = () =>{
     return(
-        <main className='f-30 m-4 tx-center'>
+        <div className='f-30 m-4 tx-center'>
             <ul className='flex flex-column'>
                 - My own assessment -
                 <li className="flex gap flex-end">HTML/CSS:
@@ -69,7 +69,7 @@ const Assessment = () =>{
                     </div>
                 </li>
             </ul>
-        </main>
+        </div>
     )
 }
 

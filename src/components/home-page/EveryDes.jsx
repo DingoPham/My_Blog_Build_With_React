@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const EveryDes = () => {
     return(
-        <main>
+        <div>
             <BgPicture />
             <div className='flex flex-column p-6 m-3'>
                     <section id='aboutMe' className='m-b'>
@@ -87,7 +87,7 @@ const EveryDes = () => {
                         </AnimatedContent>
                     </section>
             </div>
-        </main>
+        </div>
     )
 }
 

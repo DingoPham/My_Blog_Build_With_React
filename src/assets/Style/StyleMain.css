@@ -22,6 +22,9 @@
 .m-4{
     margin-right: 500px;
 }
+.m-5{
+    margin: 20px;
+}
 .m-b{
     margin-bottom: 20em;
 }
@@ -37,6 +40,9 @@
 .f-30{
     font-size: 30px;
     font-weight: 500;
+}
+.f-30-n{
+    font-size: 30px;
 }
 .f-25{
     font-size: 20px;
@@ -74,8 +80,17 @@
 .items-center{
     align-items: center;
 }
+.over-hidden{
+    overflow: hidden;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
 .gap{
     gap: 20px;
+}
+.gap-41{
+    gap: 41px;
 }
 .flex-1{
     flex: 1;
@@ -86,8 +101,17 @@
 .w-p-100{
     width: 100%;
 }
+.w-60{
+    width: 60px;
+}
 .h-60{
     height: 60px;
+}
+.w-30{
+    width: 30px;
+}
+.h-30{
+    height: 30px;
 }
 .tx-g:hover{
     color: #ffffff;
