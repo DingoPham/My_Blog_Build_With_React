@@ -20,7 +20,7 @@ const EveryDes = () => {
                                     I've planned a lot of things since I started learning programming, 
                                     and the first thing you see is this website which is also my first achievement!
                                 </p>
-                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718737294/catYes_vafisx.gif' />
+                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718737294/catYes_vafisx.gif' alt=''/>
                             </div>
                         </AnimatedContent>
                     </section>
@@ -31,7 +31,7 @@ const EveryDes = () => {
                                     This website is basically just a static website, 
                                     not a commercial website or any other kind of e-commerce website.
                                 </p>
-                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735928/catNo_hdsqiy.gif' />
+                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735928/catNo_hdsqiy.gif' alt=''/>
                             </div>
                         </AnimatedContent>
                     </section>
@@ -43,7 +43,7 @@ const EveryDes = () => {
                                     But no matter what, 
                                     I really want to make the most of what I have to achieve it.
                                 </p>
-                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735919/catYawn_tbpywt.gif' />
+                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735919/catYawn_tbpywt.gif' alt=''/>
                             </div>
                         </AnimatedContent>
                     </section>
@@ -51,7 +51,7 @@ const EveryDes = () => {
                         <AnimatedContent>
                             <div className='flex'>
                                 <Assessment />
-                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735953/catLearn_cyklvf.gif' />
+                                <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735953/catLearn_cyklvf.gif' alt=''/>
                             </div>
                         </AnimatedContent>
                     </section>
@@ -63,16 +63,16 @@ const EveryDes = () => {
                                 </p>
                                 <div className='flex gap'>
                                     <a href='https://github.com/DingoPham'>
-                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718737427/github-icon_cw4l1f.png' />
+                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718737427/github-icon_cw4l1f.png' alt=''/>
                                     </a>
                                     <a href='https://www.facebook.com/dingopham.3'>
-                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735889/facebook-icon_d1adza.webp' />
+                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735889/facebook-icon_d1adza.webp' alt=''/>
                                     </a>
                                     <a href='https://twitter.com/DingoPham'>
-                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735900/x-icon_r2t7p0.png' />
+                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735900/x-icon_r2t7p0.png' alt=''/>
                                     </a>
                                     <a href='https://discord.gg/JKqGQPTN4f'>
-                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735887/discord-icon_afyadp.png' />
+                                        <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735887/discord-icon_afyadp.png' alt=''/>
                                     </a>
                                 </div>
                                 <p className='f-30 tx-center'>

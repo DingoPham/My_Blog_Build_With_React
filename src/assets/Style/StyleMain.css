@@ -119,3 +119,14 @@
 .transition-a{
     transition: 0.2s;
 }
+body{
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+body.light{
+    background-color: #fff;
+    color: #000;
+}
+body.dark{
+    background-color: #282828;
+    color: #fff;
+}

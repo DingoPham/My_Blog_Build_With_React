@@ -29,7 +29,7 @@ function BodyContent() {
     return(
         <div>
             <div className="p-3 m-3 flex over-hidden flex-wrap gap-41">
-                <Pagination images={images} itemsPerPage={5}/>
+                <Pagination images={images} itemsPerPage={8}/>
             </div>
         </div>
     );

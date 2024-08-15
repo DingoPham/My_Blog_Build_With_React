@@ -1,12 +1,10 @@
 import Navbar from "./artwork-page/Navbar";
 
 
-const Artwork = () => {
+function Artwork() {
     return(
         <main>
-            <div>
-                <Navbar />
-            </div>
+            <Navbar />
         </main>
     )
 }

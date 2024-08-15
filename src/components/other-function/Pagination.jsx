@@ -25,7 +25,7 @@ function Pagination({ images, itemsPerPage }) {
     <div>
       <div className="flex flex-wrap gap-41">
         {currentItems.map((image, index) => (
-          <img className='pic-value' key={index} src={image} alt={`Image ${index + 1}`} />
+          <img className='pic-value' key={index} src={image} alt=''/>
         ))}
       </div>
       <div className="flex m-5 justify-center items-center">

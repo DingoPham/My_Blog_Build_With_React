@@ -3,7 +3,7 @@ import Foot from "./home-page/Foot"
 import Navbar from "./home-page/Navbar"
 import ToTopFunc from "./other-function/ToTopFunction"
 
-const Home = () => {
+function Home() {
     return(
         <main>
             <header>

@@ -2,6 +2,7 @@ import '../../assets/Style/Header.css';
 import '../../assets/Style/StyleMain.css';
 
 import React, {useEffect} from "react"
+import ThemeSwitch from '../other-function/ThemeSwitch';
 
 const Navbar = () => {
     useEffect(() => {
@@ -51,6 +52,7 @@ const Navbar = () => {
                     <a href="#desire">DESRIRE</a>
                     <a href="#mySkills">MY SKILLS</a>
                     <a href="#otherThings">OTHER THINGS</a>
+                    <ThemeSwitch />
                 </div>
             </div>
         </div>

@@ -52,24 +52,18 @@ button:active{
 .pic-value{
     height: 400px;
     width: 400px;
+    border-radius: 3%;
+    cursor: pointer;
 }
 .m-5 button {
     margin: 0 10px;
     padding: 5px 10px;
     background-color: #333;
-    color: white;
+    color: #fff;
     border: none;
     cursor: pointer;
-  }
-  
-.pagination-controls button:disabled {
+}
+.m-5 button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-  }
-  
-.pagination-controls input {
-    width: 50px;
-    text-align: center;
-    padding: 5px;
-    margin: 0 10px;
-  }
+}

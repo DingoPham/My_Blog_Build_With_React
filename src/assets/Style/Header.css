@@ -64,3 +64,6 @@ a{
 .transtion-left{
     transition: left 0.3s;
 }
+body.no-scroll{
+    overflow: hidden;
+}
