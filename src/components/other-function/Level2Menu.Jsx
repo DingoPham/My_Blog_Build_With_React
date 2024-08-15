@@ -1,7 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from 'react';
 
 function Lv2Menu() {
-    const [] = useState(false);
+  const [dropdown, setDropdown] = useState(false);  
+
+  return (
+    <div>
+        
+    </div>
+  );
 }
 
 export default Lv2Menu;

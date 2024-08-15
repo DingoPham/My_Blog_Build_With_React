@@ -18,9 +18,9 @@ function ThemeSwitch() {
     
     return(
         <div>
-            <button onClick={toggleTheme}>
+            <div onClick={toggleTheme}>
                 {theme === 'light' ? <DarkBtn /> : <LightBtn />}
-            </button>
+            </div>
         </div>
     )
 }
