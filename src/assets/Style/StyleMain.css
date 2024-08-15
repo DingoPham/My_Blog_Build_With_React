@@ -133,3 +133,9 @@ body.dark{
     background-color: #282828;
     color: #fff;
 }
+.cursor{
+    cursor: pointer;
+}
+.b-radius{
+    border-radius: 40%;
+}

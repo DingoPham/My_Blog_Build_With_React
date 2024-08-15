@@ -17,10 +17,10 @@ function ThemeSwitch() {
     };
     
     return(
-        <div>
-            <div onClick={toggleTheme}>
+        <div className="cursor">
+            <button className="w-60 b-radius" onClick={toggleTheme}>
                 {theme === 'light' ? <DarkBtn /> : <LightBtn />}
-            </div>
+            </button>
         </div>
     )
 }

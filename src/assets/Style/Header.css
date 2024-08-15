@@ -67,3 +67,19 @@ a{
 body.no-scroll{
     overflow: hidden;
 }
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 8%;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    min-width: 150px;
+    z-index: 1000;
+}
+.navbar-item {
+    position: relative;
+    margin-right: 20px;
+  }

@@ -2,7 +2,6 @@ import '../../assets/Style/Header.css';
 import '../../assets/Style/StyleMain.css';
 
 import React, {useEffect} from "react"
-import Lv2Menu from '../other-function/Level2Menu.jsx';
 
 const Navbar = () => {
     useEffect(() => {
@@ -52,7 +51,6 @@ const Navbar = () => {
                     <a href="#desire">DESRIRE</a>
                     <a href="#mySkills">MY SKILLS</a>
                     <a href="#otherThings">OTHER THINGS</a>
-                    <Lv2Menu />
                 </div>
             </div>
         </div>
