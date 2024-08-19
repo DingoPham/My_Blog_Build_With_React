@@ -1,8 +1,10 @@
 import '../../assets/Style/Body.css'
+import { TranslationProvider } from '../other-function/TranslationList';
 
 const Assessment = () =>{
     return(
-        <div className='f-30 m-4 tx-center'>
+        <TranslationProvider>
+            <div className='f-30 m-4 tx-center'>
             <ul className='flex flex-column'>
                 - My own assessment -
                 <li className="flex gap flex-end">HTML/CSS:
@@ -70,6 +72,7 @@ const Assessment = () =>{
                 </li>
             </ul>
         </div>
+        </TranslationProvider>
     )
 }
 

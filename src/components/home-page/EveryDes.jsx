@@ -28,8 +28,8 @@ const EveryDes = () => {
                         <AnimatedContent>
                             <div className='flex'>
                                 <p className='f-30 m-1 tx-center'>
-                                    This website is basically just a static website, 
-                                    not a commercial website or any other kind of e-commerce website.
+                                    This is my Blog made with ReactJS, 
+                                    you can find more by joining me on my Artwork site below.
                                 </p>
                                 <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735928/catNo_hdsqiy.gif' alt=''/>
                             </div>

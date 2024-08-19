@@ -26,14 +26,14 @@
     z-index: 1000;
 }
 .fu-con{
-    top: 80%;
-    left: 93%;
+    top: 78%;
+    left: 95%;
 }
 .fu-con-box{
     background-color: #80808062;
     border-radius: 10px;
     width: 50px;
-    height: 100px;
+    height: 155px;
 }
 .cursor button{
     border: none;
