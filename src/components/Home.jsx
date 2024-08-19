@@ -1,7 +1,7 @@
 import EveryDes from "./home-page/EveryDes"
 import Foot from "./home-page/Foot"
 import Navbar from "./home-page/Navbar"
-import ToTopFunc from "./other-function/ToTopFunction"
+import FunctionContainer from "./other-function/FunctionContainer"
 
 function Home() {
     return(
@@ -11,10 +11,10 @@ function Home() {
             </header>
             <section>
                 <EveryDes />
+                <FunctionContainer />
             </section>
             <footer>
                 <Foot />
-                <ToTopFunc />
             </footer>
         </main>
     )

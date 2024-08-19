@@ -14,7 +14,3 @@
 .foot .flex .flex a img:hover{
     transform: scale(1.2);
 }
-.cursor .w-60:hover{
-    background-color: #fff;
-    box-shadow: none;
-}

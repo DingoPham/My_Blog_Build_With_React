@@ -89,6 +89,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+.gap-10{
+    gap: 10px;
+}
 .gap{
     gap: 20px;
 }
@@ -133,9 +136,6 @@ body.dark{
     background-color: #282828;
     color: #fff;
 }
-.cursor{
-    cursor: pointer;
-}
-.b-radius{
-    border-radius: 40%;
+.c-black{
+    color: #000;
 }

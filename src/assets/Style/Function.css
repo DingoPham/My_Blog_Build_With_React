@@ -1,28 +1,15 @@
 .scroll-to-top{ 
-    position: fixed;
-    top: 90%;
-    left: 95%;
-    z-index: 100;
     border: none;
     outline: none;
     border-radius: 50%;
     cursor: pointer;
     padding: 10px;
-    width: 40px;
-    height: 35px;
+    width: 50px;
+    height: 45px;
     background-color: #00000060;
 }
-.scroll-to-top.show{
-    display: block;
-    animation: fadeIn 0.3s;
-}
-@keyframes fadeIn{
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.scroll-to-top:hover{
+    background-color: #fff;
 }
 .a-c{
     opacity: 0;
@@ -32,4 +19,35 @@
 .a-c.show{
     opacity: 1;
     transform: translateY(0);
+}
+.cursor{
+    cursor: pointer;
+}
+.b-radius{
+    border-radius: 40%;
+}
+.position-fixed{
+    position: fixed;
+    z-index: 1000;
+}
+.fu-con{
+    top: 80%;
+    left: 93%;
+}
+.fu-con-box{
+    background-color: #80808062;
+    border-radius: 10px;
+    width: 50px;
+    height: 100px;
+}
+.cursor button{
+    border: none;
+    outline: none;
+    background-color: #00000060;
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+}
+.cursor button:hover{
+    background-color: #ffffff;
 }

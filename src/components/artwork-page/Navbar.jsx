@@ -6,7 +6,7 @@ import '../../assets/Style/Body.css'
 
 import Open from "../other-function/OpenBtn";
 import Close from "../other-function/CloseBtn";
-import HeadTitle from "./HeadTitle";
+import HeadContent from "./HeadContent";
 import BodyContent from "./BodyContent";
 import FootContent from "./FootContent";
 
@@ -38,7 +38,7 @@ const Navbar = () =>{
                     </div>
                 </div>
                 <div className="flex-1 transtion-margin-left m-l-250">
-                    <HeadTitle />
+                    <HeadContent />
                     <BodyContent />
                     <FootContent />
                 </div>

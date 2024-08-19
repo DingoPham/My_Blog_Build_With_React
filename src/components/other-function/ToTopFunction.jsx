@@ -1,16 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import '../../assets/Style/Function.css';
 
-const ToTopFunc = () => {
+function ToTopFunc(){
     const [isVisible, setIsVisible] = useState(false);
 
     const toggleVisibility = () =>{
-        if(window.pageYOffset > 500 ){
-            setIsVisible(true);
-        }
-        else{
-            setIsVisible(false)
-        }
+        setIsVisible(true)
     };
 
     const toTop = () => {
@@ -31,7 +26,7 @@ const ToTopFunc = () => {
         <div>
             {isVisible && (
                 <button onClick={toTop} className='scroll-to-top'>
-                    <i className="fas fa-caret-up tx-c"></i>
+                    <i className="fas fa-caret-up tx-c c-black"></i>
                 </button>
         )}
         </div>
