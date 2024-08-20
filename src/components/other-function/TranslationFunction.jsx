@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import BtnVIE from "./BtnVIE";
 import BtnENG from "./BtnENG";
+import { useTranslation } from "./TranslationList";
 
-function Translations() {
-    const [language, setLanguage] = useState(() => {
-        return localStorage.getItem('language') || 'en';
-    })
+
+function TranslationFunction() {
+
+    const {language, changeLanguage} = useTranslation();
 
     const toggleLanguage = () => {
-        setLanguage((prevLanguage) => (prevLanguage === 'en' ? 'vi' : 'en'));
+        changeLanguage(language === 'en' ? 'vi' : 'en');
     };
 
     return(
@@ -22,4 +23,4 @@ function Translations() {
     )
 }
 
-export default Translations;
+export default TranslationFunction;

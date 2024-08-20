@@ -3,10 +3,14 @@ import Assessment from './Assessment';
 import BgPicture from './BgPicture';
 import AnimatedContent from '../other-function/AnimatedContent';
 
+import { useTranslation } from '../other-function/TranslationList';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const EveryDes = () => {
+    const {translations, language} = useTranslation();
+
     return(
         <div>
             <BgPicture />
@@ -15,10 +19,7 @@ const EveryDes = () => {
                         <AnimatedContent>
                             <div className='flex flex-reverse'>
                                 <p className='f-30 m-2 tx-center'>
-                                    My name is Dingo, I'm so glad you came here and discovered the wonders of my website.
-                                    My hobbies are programming, 2D painting. 
-                                    I've planned a lot of things since I started learning programming, 
-                                    and the first thing you see is this website which is also my first achievement!
+                                    {translations[language].aboutMe}
                                 </p>
                                 <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718737294/catYes_vafisx.gif' alt=''/>
                             </div>
@@ -28,8 +29,7 @@ const EveryDes = () => {
                         <AnimatedContent>
                             <div className='flex'>
                                 <p className='f-30 m-1 tx-center'>
-                                    This is my Blog made with ReactJS, 
-                                    you can find more by joining me on my Artwork site below.
+                                    {translations[language].thisWebsite}
                                 </p>
                                 <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735928/catNo_hdsqiy.gif' alt=''/>
                             </div>
@@ -39,9 +39,7 @@ const EveryDes = () => {
                         <AnimatedContent>
                             <div className='flex flex-reverse'>
                                 <p className='f-30 m-2 tx-center'>
-                                    In the future, I will have more projects for myself or maybe with a group. 
-                                    But no matter what, 
-                                    I really want to make the most of what I have to achieve it.
+                                    {translations[language].desire}
                                 </p>
                                 <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735919/catYawn_tbpywt.gif' alt=''/>
                             </div>
@@ -59,7 +57,7 @@ const EveryDes = () => {
                         <AnimatedContent>
                             <div className='flex flex-column items-center gap'>
                                 <p className='f-30 tx-center'>
-                                    - If you are interested, please join me via social networks below -
+                                    {translations[language].otherThings}
                                 </p>
                                 <div className='flex gap'>
                                     <a href='https://github.com/DingoPham'>
@@ -76,7 +74,7 @@ const EveryDes = () => {
                                     </a>
                                 </div>
                                 <p className='f-30 tx-center'>
-                                    - My artwork site -
+                                    {translations[language].artworkSite}
                                 </p>
                                 <Link to='/artwork'>
                                     <button className='bg-btn-color btn-color f-17'>

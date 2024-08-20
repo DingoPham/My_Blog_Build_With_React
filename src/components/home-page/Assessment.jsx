@@ -1,12 +1,15 @@
 import '../../assets/Style/Body.css'
-import { TranslationProvider } from '../other-function/TranslationList';
+
+import React from 'react';
+import { useTranslation } from '../other-function/TranslationList';
 
 const Assessment = () =>{
+    const {translations, language} = useTranslation();
+
     return(
-        <TranslationProvider>
             <div className='f-30 m-4 tx-center'>
-            <ul className='flex flex-column'>
-                - My own assessment -
+            <ul className='flex flex-column'> 
+                {translations[language].mySkills}
                 <li className="flex gap flex-end">HTML/CSS:
                     <div>
                         <span className="fa fa-star checked"></span>
@@ -72,7 +75,6 @@ const Assessment = () =>{
                 </li>
             </ul>
         </div>
-        </TranslationProvider>
     )
 }
 
