@@ -8,9 +8,9 @@ import { TranslationProvider } from './components/other-function/TranslationList
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TranslationProvider>
-      <App />
-    </TranslationProvider>
+      <TranslationProvider>
+        <App />
+      </TranslationProvider>
   </React.StrictMode>
 );
 

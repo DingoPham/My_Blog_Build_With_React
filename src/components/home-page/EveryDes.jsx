@@ -6,7 +6,6 @@ import AnimatedContent from '../other-function/AnimatedContent';
 import { useTranslation } from '../other-function/TranslationList';
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const EveryDes = () => {
     const {translations, language} = useTranslation();
@@ -76,11 +75,11 @@ const EveryDes = () => {
                                 <p className='f-30 tx-center'>
                                     {translations[language].artworkSite}
                                 </p>
-                                <Link to='/artwork'>
-                                    <button className='bg-btn-color btn-color f-17'>
-                                        Artwork Site
-                                    </button>
-                                </Link>
+                                    <a href='/'>
+                                        <button className='bg-btn-color btn-color f-17'>
+                                            Artwork Site
+                                        </button>
+                                    </a>
                             </div>
                         </AnimatedContent>
                     </section>
