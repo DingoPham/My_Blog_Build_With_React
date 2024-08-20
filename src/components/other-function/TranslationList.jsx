@@ -18,7 +18,8 @@ export const TranslationProvider = ({ children }) => {
         thisWeb: "THIS WEBSITE",
         des: "DESIRE",
         mySki: "MY SKILLS",
-        otherThi: "OTHER THINGS"
+        otherThi: "OTHER THINGS",
+        footer: "If you have any questions, write to me via my gmail:"
       },
       vi: {
         aboutMe: "Tôi tên là Dingo, tôi rất vui vì bạn đã đến đây và khám phá những điều tuyệt vời trên trang web của tôi.",
@@ -31,7 +32,8 @@ export const TranslationProvider = ({ children }) => {
         thisWeb: "TRANG WEB NÀY",
         des: "MÔ TẢ",
         mySki: "CÁC KỸ NĂNG",
-        otherThi: "NHỮNG ĐIỀU KHÁC"
+        otherThi: "NHỮNG ĐIỀU KHÁC",
+        footer: "Nếu bạn có bất cứ câu hỏi gì, hãy nhắn lại qua gmail của tôi:"
       }
   };
 
