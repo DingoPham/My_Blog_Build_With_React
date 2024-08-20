@@ -14,6 +14,11 @@ export const TranslationProvider = ({ children }) => {
         mySkills: "My own assessment",
         otherThings: "- If you are interested, please join me via social networks below -",
         artworkSite: "- My artwork site -",
+        abtMe: "ABOUT ME",
+        thisWeb: "THIS WEBSITE",
+        des: "DESIRE",
+        mySki: "MY SKILLS",
+        otherThi: "OTHER THINGS"
       },
       vi: {
         aboutMe: "Tôi tên là Dingo, tôi rất vui vì bạn đã đến đây và khám phá những điều tuyệt vời trên trang web của tôi.",
@@ -22,6 +27,11 @@ export const TranslationProvider = ({ children }) => {
         mySkills: "Đánh giá của riêng tôi",
         otherThings: "- Nếu bạn quan tâm, hãy tham gia với tôi qua các mạng xã hội bên dưới -",
         artworkSite: "- Trang Artwork của tôi -",
+        abtMe: "TT CÁ NHÂN",
+        thisWeb: "TRANG WEB NÀY",
+        des: "MÔ TẢ",
+        mySki: "CÁC KỸ NĂNG",
+        otherThi: "NHỮNG ĐIỀU KHÁC"
       }
   };
 
