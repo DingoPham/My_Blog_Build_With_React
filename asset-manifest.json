@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dingopham.github.io/static/css/main.09efdd5f.css",
-    "main.js": "/dingopham.github.io/static/js/main.6422251e.js",
+    "main.js": "/dingopham.github.io/static/js/main.36b7383e.js",
     "static/js/453.e33eb25c.chunk.js": "/dingopham.github.io/static/js/453.e33eb25c.chunk.js",
     "index.html": "/dingopham.github.io/index.html",
     "main.09efdd5f.css.map": "/dingopham.github.io/static/css/main.09efdd5f.css.map",
-    "main.6422251e.js.map": "/dingopham.github.io/static/js/main.6422251e.js.map",
+    "main.36b7383e.js.map": "/dingopham.github.io/static/js/main.36b7383e.js.map",
     "453.e33eb25c.chunk.js.map": "/dingopham.github.io/static/js/453.e33eb25c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09efdd5f.css",
-    "static/js/main.6422251e.js"
+    "static/js/main.36b7383e.js"
   ]
 }
