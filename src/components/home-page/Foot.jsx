@@ -1,5 +1,7 @@
 import '../../assets/Style/Footer.css';
 import AnimatedContent from '../other-function/AnimatedContent';
+
+import React from 'react';
 import { useTranslation } from '../other-function/TranslationList';
 
 const Foot = () =>{

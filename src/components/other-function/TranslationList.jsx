@@ -51,6 +51,7 @@ export const TranslationProvider = ({ children }) => {
 // Tạo hook để sử dụng dữ liệu dịch từ context
 export const useTranslation = () => {
   const context = useContext(TranslationContext);
+  console.log('TranslationContext:', context);
   if (!context) {
     throw new Error('useTranslation must be used within a TranslationProvider');
   }
