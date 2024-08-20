@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dingopham.github.io/static/css/main.09efdd5f.css",
-    "main.js": "/dingopham.github.io/static/js/main.0f6b0f4e.js",
-    "static/js/453.e33eb25c.chunk.js": "/dingopham.github.io/static/js/453.e33eb25c.chunk.js",
-    "index.html": "/dingopham.github.io/index.html",
-    "main.09efdd5f.css.map": "/dingopham.github.io/static/css/main.09efdd5f.css.map",
-    "main.0f6b0f4e.js.map": "/dingopham.github.io/static/js/main.0f6b0f4e.js.map",
-    "453.e33eb25c.chunk.js.map": "/dingopham.github.io/static/js/453.e33eb25c.chunk.js.map"
+    "main.css": "/static/css/main.09efdd5f.css",
+    "main.js": "/static/js/main.4730fed9.js",
+    "static/js/453.e33eb25c.chunk.js": "/static/js/453.e33eb25c.chunk.js",
+    "index.html": "/index.html",
+    "main.09efdd5f.css.map": "/static/css/main.09efdd5f.css.map",
+    "main.4730fed9.js.map": "/static/js/main.4730fed9.js.map",
+    "453.e33eb25c.chunk.js.map": "/static/js/453.e33eb25c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09efdd5f.css",
-    "static/js/main.0f6b0f4e.js"
+    "static/js/main.4730fed9.js"
   ]
 }
