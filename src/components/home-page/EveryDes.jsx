@@ -46,7 +46,7 @@ const EveryDes = () => {
                     </section>
                     <section id='mySkills' className='m-b'>
                         <AnimatedContent>
-                            <div className='flex'>
+                            <div className='flex space-between'>
                                 <Assessment />
                                 <img src='https://res.cloudinary.com/dtqyzzv0h/image/upload/v1718735953/catLearn_cyklvf.gif' alt=''/>
                             </div>
